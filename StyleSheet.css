@@ -8,9 +8,34 @@ body {
 div {
     padding: 0; 
 }
+div.nav{
+    position: sticky;
+}
+ul li{
+    display: inline;
+    padding: 10px;
+}
+div.nav ul{
+    text-align: center;
+}
+a.nav {
+    color: white;
+    text-decoration: none;
+}
 
-a {
-    color: rgb(210, 210, 255)
+a.nav:hover {
+    color: rgb(206, 206, 206);
+    text-decoration: underline;
+}
+
+a.link {
+    color: rgb(50, 50, 50);
+    text-decoration: none;
+}
+
+a.link:hover {
+    color: rgb(56, 53, 82);
+    text-decoration: underline;
 }
 
 .card{
@@ -50,6 +75,6 @@ hr {
     border-top: 1px solid white
 }
 
-.video{
+.video {
     text-align: center;
 }
